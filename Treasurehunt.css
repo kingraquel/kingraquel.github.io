@@ -1,0 +1,81 @@
+/* Give a color to our header */
+/* Give a color to our header */
+h1 {
+  color: rgb(2, 63, 194);
+  font-size: 55px;
+}
+h2 {
+  color: rgb(, , );
+  font-size: 30px;
+}
+h3 {
+  color: rgb(, , );
+  font-size: 25px;
+
+}
+
+/* Make ruleset distinct */
+ul {
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+}
+.flair {
+  text-decoration: overline wavy rgb(2, 63, 194);
+}
+/* Choose a color for background  */
+body {
+  background-image: url(https://wallpaper.dog/large/20476976.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+/* Center our table and enlarge */
+*{
+  text-align: center;
+}
+table {
+  width: 75%;
+
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+}
+
+th {
+  height: 70px;
+}
+tr {
+  background-color: rgb(2, 63, 194);
+  color: white;
+}
+#game-table {
+  display: flex;
+  justify-content: center;
+}
+
+/* Change font for entire webpage */
+*{
+  font-family: 'Fira Sans', sans-serif;
+  }
+/* Add hover for Buttons */
+button:hover {
+  font-size: 100%;
+  background-color: #385585 ;
+  color:white;
+
+}
+#motion  {
+        animation: bounce 1s infinite;
+        animation-timing-function: ease;
+    }
+    @keyframes bounce {
+        0%   { transform: translateY(0); }
+        30%  { transform: translateY(-30px); }
+        50%  { transform: translateY(0); }
+        100% { transform: translateY(0); }
+    }
+}
+/* Change link color when unclicked/clicked */

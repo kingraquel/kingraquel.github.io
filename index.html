@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" type="img/x-icon" href="">
+    <title>Teasure Hunt Game</title>
+    <link rel="stylesheet" href="treasurehunt.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap" rel="stylesheet">
+  </head>
+  <body>
+      <h1>Our Ultimate Treasure Hunt</h1>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Best_Butterfly_picture_of_the_day.jpg" alt="Blue butterflies" height=300px>
+      <h2 id="motion">Find The Butterfly</h2>
+      <h3>Game Rules</h3>
+      <ul>
+        <li class="flair">Click the boxes to reveal what is on the map</li>
+        <li>If you click on the spider, you lose</li>
+        <li>If you click on the butterfly, you win</li>
+      </ul>
+      <div id="game-table">
+      <table border=1>
+        <tr style="height:200px">
+          <td id="0" onclick="treasure(0)">?</td>
+          <td id="1" onclick="treasure(1)">?</td>
+          <td id="2" onclick="treasure(2)">?</td>
+          <td id="3" onclick="treasure(3)">?</td>
+        </tr>
+        <tr style="height:200px">
+          <td id="4" onclick="treasure(4)">?</td>
+          <td id="5" onclick="treasure(5)">?</td>
+          <td id="6" onclick="treasure(6)">?</td>
+          <td id="7" onclick="treasure(7)">?</td>
+
+        </tr>
+      </table>
+      </div>
+<button type="button">Restart Game</button>
+<footer>Joyce Magistrado | Joseph Gonzales | Raquel King | <a href="https://poki.com" target="_blank">Play more games here</a></footer>
+<script type="text/javascript" src="treasurehunt.js"></script>
+</body>
+</html>
